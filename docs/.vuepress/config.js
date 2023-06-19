@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/lym-notebook/',
   title: "lym's notebook",
   description: "lym's notebook",
   themeConfig: {
@@ -15,7 +16,7 @@ module.exports = {
     nav: [
       { text: '指南', link: '/' },
       { text: '配置', link: '/config.md' },
-      { text: 'Github', link: 'https://github.com/lym1212/docs' }
+      { text: 'Github', link: 'https://github.com/lym1212/lym-notebook' }
     ]
   }
 }
