@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git命令 | lym&#39;s notebook</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="lym&#39;s notebook">
+    
+    <link rel="preload" href="/lym-notebook/assets/css/0.styles.3f210c4b.css" as="style"><link rel="preload" href="/lym-notebook/assets/js/app.457aca6f.js" as="script"><link rel="preload" href="/lym-notebook/assets/js/2.329d51a8.js" as="script"><link rel="preload" href="/lym-notebook/assets/js/10.ea7fda37.js" as="script"><link rel="prefetch" href="/lym-notebook/assets/js/11.72530f00.js"><link rel="prefetch" href="/lym-notebook/assets/js/12.8aa8e499.js"><link rel="prefetch" href="/lym-notebook/assets/js/13.1f8531cd.js"><link rel="prefetch" href="/lym-notebook/assets/js/14.8f3bdb96.js"><link rel="prefetch" href="/lym-notebook/assets/js/15.e19d7893.js"><link rel="prefetch" href="/lym-notebook/assets/js/16.190c3dc0.js"><link rel="prefetch" href="/lym-notebook/assets/js/17.e9fe1e75.js"><link rel="prefetch" href="/lym-notebook/assets/js/18.97ef0c58.js"><link rel="prefetch" href="/lym-notebook/assets/js/19.d01e910a.js"><link rel="prefetch" href="/lym-notebook/assets/js/20.3e0d8547.js"><link rel="prefetch" href="/lym-notebook/assets/js/21.adff6834.js"><link rel="prefetch" href="/lym-notebook/assets/js/22.2ef14b1c.js"><link rel="prefetch" href="/lym-notebook/assets/js/23.3c4ace5d.js"><link rel="prefetch" href="/lym-notebook/assets/js/24.0b8bf490.js"><link rel="prefetch" href="/lym-notebook/assets/js/3.01d48078.js"><link rel="prefetch" href="/lym-notebook/assets/js/4.98ba19a3.js"><link rel="prefetch" href="/lym-notebook/assets/js/5.e0383c07.js"><link rel="prefetch" href="/lym-notebook/assets/js/6.183698f5.js"><link rel="prefetch" href="/lym-notebook/assets/js/7.6abba9a1.js"><link rel="prefetch" href="/lym-notebook/assets/js/8.617504be.js"><link rel="prefetch" href="/lym-notebook/assets/js/9.5ea07d9e.js">
+    <link rel="stylesheet" href="/lym-notebook/assets/css/0.styles.3f210c4b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/lym-notebook/" class="home-link router-link-active"><img src="/lym-notebook/img/logo.jpg" alt="lym's notebook" class="logo"> <span class="site-name can-hide">lym's notebook</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/lym-notebook/trap/" class="nav-link">
+  日常踩坑
+</a></div><div class="nav-item"><a href="/lym-notebook/piece/" class="nav-link router-link-active">
+  碎片记录
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习记录" class="dropdown-title"><span class="title">学习记录</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习记录" class="mobile-dropdown-title"><span class="title">学习记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/lym-notebook/study/tool.html" class="nav-link">
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/lym-notebook/study/js/Set和Map.html" class="nav-link">
+  ES6
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="看书记录" class="dropdown-title"><span class="title">看书记录</span> <span class="arrow down"></span></button> <button type="button" aria-label="看书记录" class="mobile-dropdown-title"><span class="title">看书记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/lym-notebook/book/Vuejs实战笔记.html" class="nav-link">
+  Vuejs实战笔记
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/lym1212/lym-notebook" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/lym-notebook/trap/" class="nav-link">
+  日常踩坑
+</a></div><div class="nav-item"><a href="/lym-notebook/piece/" class="nav-link router-link-active">
+  碎片记录
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习记录" class="dropdown-title"><span class="title">学习记录</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习记录" class="mobile-dropdown-title"><span class="title">学习记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/lym-notebook/study/tool.html" class="nav-link">
+  工具
+</a></li><li class="dropdown-item"><!----> <a href="/lym-notebook/study/js/Set和Map.html" class="nav-link">
+  ES6
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="看书记录" class="dropdown-title"><span class="title">看书记录</span> <span class="arrow down"></span></button> <button type="button" aria-label="看书记录" class="mobile-dropdown-title"><span class="title">看书记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/lym-notebook/book/Vuejs实战笔记.html" class="nav-link">
+  Vuejs实战笔记
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/lym1212/lym-notebook" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>碎片记录</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/lym-notebook/piece/git.html" aria-current="page" class="active sidebar-link">Git命令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/lym-notebook/piece/git.html#配置用户名和邮箱" class="sidebar-link">配置用户名和邮箱</a></li><li class="sidebar-sub-header"><a href="/lym-notebook/piece/git.html#初始化" class="sidebar-link">初始化</a></li><li class="sidebar-sub-header"><a href="/lym-notebook/piece/git.html#连接" class="sidebar-link">连接</a></li><li class="sidebar-sub-header"><a href="/lym-notebook/piece/git.html#提交" class="sidebar-link">提交</a></li></ul></li><li><a href="/lym-notebook/piece/vuepress.html" class="sidebar-link">VuePress部署</a></li><li><a href="/lym-notebook/piece/nvm.html" class="sidebar-link">nvm</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git命令"><a href="#git命令" class="header-anchor">#</a> Git命令</h1> <h2 id="配置用户名和邮箱"><a href="#配置用户名和邮箱" class="header-anchor">#</a> 配置用户名和邮箱</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">&quot;lym1212&quot;</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">&quot;1026910224@qq.com&quot;</span>
+</code></pre></div><h2 id="初始化"><a href="#初始化" class="header-anchor">#</a> 初始化</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> init
+</code></pre></div><h2 id="连接"><a href="#连接" class="header-anchor">#</a> 连接</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">git</span> remote <span class="token function">add</span> origin git@github.com:lym1212/lym-notebook.git
+</code></pre></div><h2 id="提交"><a href="#提交" class="header-anchor">#</a> 提交</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 添加所有修改文件到暂存区</span>
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
+
+<span class="token comment"># 提交到本地仓库</span>
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">'xxxxxxxxxxxxxxx'</span>
+
+<span class="token comment"># 提交到远程仓库</span>
+<span class="token comment"># 第一次提交 -u 后面可以直接 git push</span>
+<span class="token comment"># -u 是 set-upstream 缩写命名. 第一次是设置远程上游关联</span>
+<span class="token function">git</span> push <span class="token parameter variable">-u</span> origin master
+
+<span class="token comment"># 查看本地仓库状态</span>
+<span class="token function">git</span> status
+
+<span class="token comment"># 查看所有分支</span>
+<span class="token function">git</span> branch <span class="token parameter variable">-a</span>
+
+<span class="token comment"># 切换分支</span>
+<span class="token function">git</span> checkout xxx
+
+<span class="token comment"># 强制提交</span>
+<span class="token function">git</span> push <span class="token parameter variable">-f</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">6/24/2023, 12:52:44 AM</span></div></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/lym-notebook/piece/vuepress.html">
+        VuePress部署
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/lym-notebook/assets/js/app.457aca6f.js" defer></script><script src="/lym-notebook/assets/js/2.329d51a8.js" defer></script><script src="/lym-notebook/assets/js/10.ea7fda37.js" defer></script>
+  </body>
+</html>
